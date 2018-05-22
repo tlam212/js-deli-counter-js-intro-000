@@ -13,3 +13,4 @@ function nowServing(katzDeli) {
 }
 } 
 
+function currentLine()
