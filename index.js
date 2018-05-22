@@ -16,9 +16,9 @@ function currentLine(line) {
   for (let i = 0; i < katzDeli.length; i++) {
     line.push(' ' + [i+1] + '.' + katzDeli [1])
   }
-  if (katzDeli.length === 0)
+  if (katzDeli.length === 0) {
   return 'The line is currently empty.'
-  else{
+  }else{
     return ('The line is currently: ' + line);
   }
-}CurrentLine('Bill', 'Jane', 'Ada')
+}
