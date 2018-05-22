@@ -12,9 +12,9 @@ function nowServing(katzDeli) {
     return 'Currently serving ' + katzDeli.shift() + '.';
 }
 } 
-function currentLine(katzDeli) {
+function currentLine(line) {
   for (let i = 0; i < katzDeli.length; i++) {
-    katzDeli.push(' ' + [i+1] + '.' + katzDeli [1])
+    line.push(' ' + [i+1] + '.' + katzDeli [1])
   }
   if (currentLine.length === 0) {
   return 'The line is currently empty.'
